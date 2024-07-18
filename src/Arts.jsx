@@ -2,7 +2,7 @@
 
 function Abstract() {
     return (
-        <section>
+        <section className="grid grid-cols-2 md:grid-cols-4">
             <picture>
                 <source srcSet="src/assets/mobile/image-gallery-milkbottles.jpg" media="(max-width: 768px)" />
                 <img src="src/assets/desktop/image-gallery-milkbottles.jpg" alt="" />

@@ -3,9 +3,9 @@ import Client from "./Client";
 
 function Testimonials() {
     return (
-        <section>
-            <h2>Client testimonials</h2>
-            <div>
+        <section className="px-5 py-10">
+            <h2 className="mb-12 text-base tracking-[5px] text-center font-fraunces text-grayish-blue uppercase font-extrabold">Client testimonials</h2>
+            <div className="flex flex-row flex-wrap justify-center gap-12">
                 {
                     clientList.map((client, index) => (
                         <Client key={index} {...client} />
