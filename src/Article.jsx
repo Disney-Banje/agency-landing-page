@@ -7,7 +7,7 @@ function Article(props) {
             <div>
             <picture>
                 <source srcSet={props.cover} media="(max-width: 768px)" />
-                <img src={props.cover1} alt={props.title} className="w-full h-full object-cover"/>
+                <img src={props.cover1} alt={props.title} className="w-full h-full object-cover "/>
             </picture>
             </div>
             <section className="px-5 py-10">
