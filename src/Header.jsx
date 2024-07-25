@@ -3,7 +3,8 @@ import Button from "./Button";
 
 function Header() {
     // console.log(menuList);
-    const items = menuList.map((menuItem, index) => <li key={index}><a href="#">{menuItem}</a></li>);
+    // Generating the header navigation menu list requires importing the data from the menuList JavaScript file.
+    const items = menuList.map((menuItem, index) => <li key={index}><a href="#">{menuItem}</a></li>); // Using the map method to get the data and create an li element.
 
     return(
         <header className="absolute w-full flex justify-between items-center p-5">
@@ -17,10 +18,10 @@ function Header() {
             </button>
             <nav className="hidden md:flex md:gap-5 md:items-center">
                 <ul className="flex gap-5 text-white">
-                    {items}
+                    {items} {/*  List  of items generated from the function expression */}
                 </ul>
                 <Button 
-                state={true}/>
+                state={true}/>  {/* Condition for generating buttons with different colors. */}
             </nav>
         </header>
     );

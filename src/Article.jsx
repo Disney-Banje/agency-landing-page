@@ -2,6 +2,7 @@ import Items from "./Item";
 
 function Article(props) {
     // console.log(props.background);
+    // Using a conditional statement to be able to generate articles with different styling.
     if (props.extend) {
         return (
             <Items 

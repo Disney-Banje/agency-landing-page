@@ -1,6 +1,6 @@
-import arrow from './assets/icon-arrow-down.svg';
 
 function HeroSection() {
+    // Generating the hero section
     return (
         <section className='h-screen pt-8 md:pt-40 px-2 text-center flex flex-col gap-8 md:gap-20 justify-center items-center md:justify-start bg-[url("src/assets/mobile/image-header.jpg")] md:bg-[url("src/assets/desktop/image-header.jpg")] bg-cover bg-center'>
             <h1 className='text-white text-4xl lg:text-5xl tracking-[8px] md:tracking-[12px] uppercase font-fraunces font-extrabold'>We are creatives</h1>
